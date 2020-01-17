@@ -10,7 +10,7 @@ This project aims at analyzing the large amount of data sets collected from mult
 ### Project goals:
 Analyzing the data sets to answer the questions:
 
-* Who are using Bike Share?
+* Who are using Bike Share?*
 Members vs. casual users
 
 * When do people use Bike Share?
