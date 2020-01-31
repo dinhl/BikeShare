@@ -30,3 +30,4 @@ Analyzing the data sets to answer the questions:
   * Should I try this public transportation?
 
 ### Tech Stack
+![Tech Stack][https://github.com/dinhl/BikeShare/tree/master/image/techStack_1.PNG]
