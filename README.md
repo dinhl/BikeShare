@@ -51,7 +51,9 @@ $ peg describe <cluster_name>
 
 ### SSH to the master node
 $ peg ssh <cluster_name> 1
+
 $ exit
+
 
 ## References
 * Install and set up Spark cluster with Pegasus
