@@ -35,6 +35,17 @@ From the analyzation, the Bike Share investors can make decisions about:
 
 ![](image/techStack_2.PNG)
 
+## Instructions
+
+### Start | Stop running a cluster
+$ source ~/.profile
+$ peg start | stop <cluster_name>
+$ peg service <cluster_name> hadoop start | stop
+$ peg service <cluster_name> spark start | stop
+
+### Describe cluster status
+$ peg describe <cluster_name>
+
 ## References
 * Install and set up Spark cluster with Pegasus
 
