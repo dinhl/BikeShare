@@ -30,4 +30,4 @@ Analyzing the data sets to answer the questions:
   * Should I try this public transportation?
 
 ### Tech Stack
-![](image/techStack_1.PNG)
+![](image/techStack_2.PNG)
