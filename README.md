@@ -37,7 +37,7 @@ From the analyzation, the Bike Share investors can make decisions about:
 
 ## Instructions
 
-#### Start | Stop running a cluster
+### Start | Stop running a cluster
 $ source ~/.profile
 
 $ peg start | stop <cluster_name>
@@ -46,9 +46,12 @@ $ peg service <cluster_name> hadoop start | stop
 
 $ peg service <cluster_name> spark start | stop
 
-#### Describe cluster status
+### Describe cluster status
 $ peg describe <cluster_name>
 
+### SSH to the master node
+$ peg ssh <cluster_name> 1
+$ exit
 
 ## References
 * Install and set up Spark cluster with Pegasus
