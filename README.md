@@ -5,7 +5,7 @@
 Ingesting and joining of multiple large and diverse datasets to build an ETL pipeline
 
 ## Project ideas:
-Bike Share is very popular in many cities. Besides bus and taxi, Bike Share is one of the convenient transportation methods, especially commute in short distance. To have a deeper understanding about how does this eco-friendly commute trends develop over the years in different locations, this project combined the seperated data sets collected from multiple sources to analyze this business model.
+Bike Share is very popular in many cities. Besides bus and taxi, Bike Share is one of the convenient transportation methods, especially commute in short distance. To have a deeper understanding about how does this eco-friendly commute trends develop over the years in different locations, this project combined the separated data sets collected from multiple sources to analyze this business model.
 
 ## Project goals:
 * Ingested Bike Share data from 10 data sources for analyzing eco-friendly commute trend in 10 different cities.
