@@ -2,19 +2,22 @@ import os
 from pyspark.sql import DataFrameWriter
 
 
-class SparkToPostgres(object):
+def write_to_postgres(df, table_name):
+    """
+    Write PySpark dataframes to Postgres Database
 
-    def __init__(self):
+    Parameters:
+    	df -- the dataframe with extracted data
+    	table_name -- the table name in Postgres Database
+    """
 
-        self.pg_host = os.environ['PG_HOST']
-        self.pg_database = 'bikeshare'
-        self.pg_url = 'jdbc:postgresql://' + self.pg_host + ':5432/' + self.pg_database
-        self.pg_properties = {
-            'user': os.environ['PG_USER'],
-            'password': os.environ['PG_PASS'],
-            'driver': 'org.postgresql.Driver'
-        }
+    pg_host = os.environ['PG_HOST']
+    pg_database = 'bikeshare'
+    pg_url = 'jdbc:postgresql://' + pg_host + ':5432/' + pg_database
+    pg_properties = {
+        'user': os.environ['PG_USER'],
+        'password': os.environ['PG_PASS'],
+        'driver': 'org.postgresql.Driver'
+    }
 
-        def write_to_postgres(self, df, tableName):
-
-            df.write.jdbc(self.pg_url, table=tableName, mode="overwrite", self.pg_properties)
+    df.write.jdbc(url = pg_url, table = table_name, mode = "append", properties = pg_properties)
