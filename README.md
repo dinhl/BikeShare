@@ -35,7 +35,7 @@ From the analyzation, the Bike Share investors can make decisions about:
 
 ![](image/techStack_2.PNG)
 
-## Instructions
+## Execution
 
 ### Start | Stop running a cluster
 $ source ~/.profile
